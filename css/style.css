@@ -1,0 +1,231 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{ height: 1000px;
+    width: 100%;
+    
+    background-image: url('../body/bo_1.jpg');
+    background-size: cover;
+}
+
+/* navbar er kaj shuru */
+.header{
+    height: 65px;
+   /* background-color:#1e356b ;  */
+    display: flex;
+    align-items: center;
+}
+
+.name{
+ margin-left: 40px;
+ margin-top: 3px;
+ color: rgb(255, 255, 0);
+}
+.Home{
+    margin-left: 280px;
+color: aliceblue;
+font-weight: bold;
+}
+.about{ margin-left: 50px; 
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.Service{margin-left: 50px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.Design{margin-left: 50px;
+    color: aliceblue;
+font-weight: bold;
+}
+
+.Contect{margin-left: 50px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.type{ margin-left:225px ;
+ height: 35px;
+ border-top: 2px solid yellow;
+ border-left: 2px solid yellow ;
+ border-bottom:2px solid yellow ;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+
+.search{
+    height: 35px;
+    width: 60px;
+    color: rgb(59, 70, 63);
+    background-color:rgb(255, 255, 0); 
+    text-align: center;
+    padding-top: 07.50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+/* hover */
+
+.Home:hover { border: 3px solid whitesmoke;
+    background-color: rgba(0, 26, 255, 0.068);
+}
+
+.about:hover{
+    border: 3px solid whitesmoke;
+    background-color: rgba(77, 5, 136, 0.068);
+}
+.Service:hover{
+    border: 3px solid whitesmoke;
+    background-color: rgba(77, 5, 136, 0.068);}
+
+    .Design:hover{
+        border:3px solid whitesmoke;
+        background-color: rgba(77, 5, 136, 0.068) }
+
+        .Contect:hover{
+         border:   3px solid whitesmoke;
+        background-color: rgba(77, 5, 136, 0.068) }
+
+        /* hober shes */
+
+
+        /* navbar er kaj shes */
+
+        /* main er kaj shuru */
+        .dtalse{
+            width: 50%;
+            height: 600px;
+            margin-top: 200px;
+            margin-left: 60px;
+            float: left;
+        }
+        .web{
+            font-size: 50px;
+            color: aliceblue;
+        }
+
+        .web2{
+            font-size: 50px;
+            color: yellow;
+        }
+
+        .web3{
+            font-size: 50px;
+            color: aliceblue;
+        }
+
+        .pragraph{
+            font-size: 20px;
+            color: aliceblue;
+        }
+
+        .button{
+            margin-top:30px;
+            height: 50px;
+            width: 150px;
+            background-color: yellow;
+            border-radius: 10px;
+        }
+
+        .from{
+            width: 35%;
+            height: 500px;
+        background-color:  black;
+            float: left;
+            border-radius: 10px;
+            margin-left: 80px;
+            margin-top: 200px
+            
+           
+           
+        }
+
+        .loging-hear{
+            color: rgba(0, 0, 0, 0.966);
+            height:35px;
+            width: 70%;
+            background-color: rgb(182, 230, 241);
+            text-align: center;
+            padding-top:9px ;
+            margin-left:75px;
+            margin-top: 60px;
+            border-radius: 15px;
+        }
+        .email{
+            color: aliceblue;
+            height:50px;
+            width: 70%;
+            margin-left:75px;
+            margin-top: 30px;
+           border-bottom: 1px solid yellow;
+           border-left: none;
+           border-top: none;
+           border-right: none;
+            background: transparent;
+        }
+        .password{
+            color: aliceblue;
+            height:50px;
+            width: 70%;
+            margin-left:75px;
+            margin-top: 30px;
+             
+            border-bottom: 1px solid yellow;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            background: transparent;
+        }
+        ::placeholder{
+            color: aliceblue;
+        }
+        .loging{
+            color: rgb(0, 0, 0);
+            background-color: yellow;
+            height:50px;
+            width: 70%;
+            font-size: 30px;
+            margin-left:75px;
+            margin-top: 30px;
+            border-radius: 15px;
+            text-align: center;
+            padding-top:8px;
+        }
+
+        .dont{
+            color:aliceblue; 
+            margin-left: 31%;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        .up{
+            color:yellow;
+            float: left;
+            margin-left: 41%;
+            margin-top: 3px;
+            font-size: 20px;
+        }
+
+        .here{
+            color: aliceblue;
+            float: left;
+            overflow: hidden;
+            font-size: 20px;
+            
+        margin-left: 2px;
+            margin-top: 3px;
+            
+        }
+        .cler{
+            clear: both;
+        }
+        .with{
+            color: aliceblue;
+            margin-left: 41%;
+            margin-top: 25px;
+            font-size: 20px;
+        }
